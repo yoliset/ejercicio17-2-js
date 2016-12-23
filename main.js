@@ -8,10 +8,10 @@ function calcular(){
 	var weekday = parseInt(document.getElementById("weekday").value);
     var salida = document.getElementById("salida");
 
-	var message = "1";
+	var message = "0";
     var face = "despierto-face";
 	if (weekday >5 || vacation == 1){
-		message = "0";
+		message = "1";
         face = "dormi-face";
         
 	}
